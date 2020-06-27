@@ -8,6 +8,7 @@ function App() {
       <h1> My React App </h1>
       <h2> Author: Jerald</h2>
       <img src = {profileImage} alt = "profile-image"/>
+      <p> Hello world!.</p>
     </div>
   );
 }

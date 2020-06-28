@@ -2,21 +2,20 @@ import React from 'react';
 
 import './App.css';
 import dp from './img/DisplayPicture.jpg';
-import {text} from './textfiles/AboutMe.txt';
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <div class = ".displayPicture">
-            <img src = {dp} alt = "Display Picture" className = "displayPicture" /> 
-                <div class = ".h1">
-                    <h1>HELLO</h1>
-                </div>
-                <div class = ".AboutMe">
-                    <script class ="AboutMe">console.log(text)</script>
+            <img src = {dp} alt = "dp" className = "displayPicture" /> 
+                <div class = ".greet">
+                    <h1 className = "greet">HELLO</h1>
                 </div>
         </div>
+        <h5> //to be completed </h5>
     </div>
+   
+   
   );
 }
 

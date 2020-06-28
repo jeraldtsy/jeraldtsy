@@ -12,12 +12,27 @@ p {
     font-size: 15px;
     line-height: 1.4em;
     color: #333;
+    display: inline-block; 
 }
 
-.image {
+.displayPicture {
     border-radius: 50%;
     height: 350px;
     width: 350px;
-    float:left;
+    float: left;
     top: 250px;
+    vertical-align: top; 
+}
+
+.h1 {
+    font-family: open sans;
+    font-size: 40px;
+    display: inline;
+}
+
+.AboutMe{
+    font-family: open sans;
+    font-size: 20px;
+    float: right; 
+    display: inline-block; 
 }

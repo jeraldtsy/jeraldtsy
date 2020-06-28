@@ -22,5 +22,16 @@ p {
 .greet {
     text-align: center;
     font-family: open sans;
-    font-size: 60px;
+    font-size: 30px;
+    position: relative; 
+    left: 50px;
+}
+
+.AboutMe{
+    font-size: 20px;
+    position : relative; 
+    left: 50px;
+    top: -50px;
+
+
 }

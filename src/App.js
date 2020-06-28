@@ -9,13 +9,20 @@ function App() {
         <div class = ".displayPicture">
             <img src = {dp} alt = "dp" className = "displayPicture" /> 
                 <div class = ".greet">
-                    <h1 className = "greet">HELLO</h1>
-                </div>
-        </div>
-        <h5> //to be completed </h5>
-    </div>
-   
-   
+                    <p className = "greet">HELLO</p>               
+                <div class = ".AboutMe">
+                    <p className = "AboutMe"> I'm Jerald and I am a christian!<br/>
+                    I like to read books and code. <br/><br/>
+
+                    If you would like to read my book reviews(Mostly christian), head over to the "Books" link above. <br/>
+                    If you would like to practise some coding, head over to the "Codes" link above. <br/>
+                    If you would like to read my journal, drop me a request. <br/><br/>
+
+                    Corem deo, carpe diem~  </p>
+                    </div>
+            </div>
+        </div>     
+    </div>  
   );
 }
 

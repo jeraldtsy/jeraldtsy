@@ -8,17 +8,20 @@ function App() {
     const journalPage = "https://www.google.com"; 
     const booksPage = "https://www.google.com";
     const codePage = "https://www.google.com";
-    const githubPage = "https://jeraldtsy.github.io/web/";
+    const webPage = "https://jeraldtsy.github.io/web/";
+    const mailPage = "mailto:jeraldtsy@gmail.com";
+    const githubPage = "https://github.com/jeraldtsy";
 
   return (
     <div>
-        <div class="topnav"> 
-             <a href = {twitchPage}>Twitch</a>
-             <a href = {journalPage}>Journal</a>
-             <a href = {codePage}>Codes</a>
+        <div class="header"> 
+             <a href = {webPage}>Jerald Tan</a>
              <a href = {booksPage}>Books</a>
-             <a href = {githubPage}>Jerald Tan</a>
+             <a href = {codePage}>Codes</a>                   
+             <a href = {journalPage}>Journal</a>
+             <a href = {twitchPage}>Twitch</a>
         </div>
+
         <div class = ".displayPicture">
             <img src = {dp} alt = "dp" className = "displayPicture" /> 
                 <div class = ".greet">
@@ -34,12 +37,10 @@ function App() {
                     Corem deo, carpe diem~  </span>
                     </div>
             </div>
-        </div>
-        <div class = "footer">           
-            <p>Footer</p>
-            <a href="mailto:jeraldtsy@gmail.com">email</a>
-        	<a href="https://github.com/jeraldtsy/">github.com/jeraldtsy/</a>
-		    
+        </div>       
+        <div class = "footer"> 
+            <a href = {mailPage}>email</a>
+        	<a href = {githubPage}>github.com/jeraldtsy/</a>           		    
         </div>
     </div>  
   );

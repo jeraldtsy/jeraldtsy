@@ -6,6 +6,9 @@ import dp from './img/DisplayPicture.jpg';
 function App() {
   return (
     <div>
+         <div class="header">
+              <h1>link1 link2 link3 </h1>                             
+        </div>
         <div class = ".displayPicture">
             <img src = {dp} alt = "dp" className = "displayPicture" /> 
                 <div class = ".greet">

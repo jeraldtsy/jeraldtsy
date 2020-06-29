@@ -28,10 +28,8 @@ p {
 }
 
 .AboutMe{
-    font-size: 20px;
+    font-size: 16px;
     position : relative; 
     left: 50px;
-    top: -50px;
-
-
+    top: -30px;
 }

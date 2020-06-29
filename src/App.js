@@ -4,14 +4,20 @@ import './App.css';
 import dp from './img/DisplayPicture.jpg';
 
 function App() {
+    const twitchPage = "https://www.twitch.tv/sheng94";
+    const journalPage = "https://www.google.com"; 
+    const booksPage = "https://www.google.com";
+    const codePage = "https://www.google.com";
+    const githubPage = "https://jeraldtsy.github.io/web/";
+
   return (
     <div>
         <div class="topnav"> 
-             <a href = "https://www.twitch.tv/sheng94">Twitch</a>
-             <a href = "https://www.google.com">Journal</a>
-             <a href = "https://www.google.com">Codes</a>
-             <a href = "https://www.google.com">Books</a>
-             <a href = "https://jeraldtsy.github.io/web/">jeraldtsy</a>
+             <a href = {twitchPage}>Twitch</a>
+             <a href = {journalPage}>Journal</a>
+             <a href = {codePage}>Codes</a>
+             <a href = {booksPage}>Books</a>
+             <a href = {githubPage}>Jerald Tan</a>
         </div>
         <div class = ".displayPicture">
             <img src = {dp} alt = "dp" className = "displayPicture" /> 
@@ -29,12 +35,12 @@ function App() {
                     </div>
             </div>
         </div>
-        <footer>
-    		<ul>
-        		<li><a href="mailto:jeraldtsy@gmail.com">email</a></li>
-        		<li><a href="https://github.com/jeraldtsy/">github.com/jeraldtsy/</a></li>
-			</ul>
-		</footer>
+        <div class = "footer">           
+            <p>Footer</p>
+            <a href="mailto:jeraldtsy@gmail.com">email</a>
+        	<a href="https://github.com/jeraldtsy/">github.com/jeraldtsy/</a>
+		    
+        </div>
     </div>  
   );
 }

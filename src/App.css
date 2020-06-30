@@ -83,7 +83,7 @@ p {
 
 .bibleVerse {
     position:fixed; 
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     position: fixed;
     font-style: italic;
@@ -92,5 +92,4 @@ p {
     left: 3%;
     bottom:70px; 
     text-align: center;
-    word-break:break-all;
 }

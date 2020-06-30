@@ -20,6 +20,7 @@ p {
 }
 
 .greet {
+    position: relative; 
     text-align: center;
     font-family: open sans;
     font-size: 30px;
@@ -70,4 +71,13 @@ p {
 
 .footer a{
     padding: 15px;
+}
+
+.bibleVerse {
+    font-size:13px;
+    font-weight:bold; 
+    position: fixed; 
+    font-style: italic;
+    font-family:Verdana;
+    bottom:50px;
 }

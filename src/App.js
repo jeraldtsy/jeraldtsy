@@ -37,8 +37,11 @@ function App() {
                     Corem deo, carpe diem~  </span>
                     </div>
             </div>
-        </div>       
-        <div class = "footer"> 
+        </div>  
+        <div class = ".bibleVerse">
+            <span className = "bibleVerse">For the eyes of the Lord range throughout the earth to strengthen those whose hearts are fully committed to him </span>
+		</div>
+        <div class = "footer">           
             <a href = {mailPage}>email</a>
         	<a href = {githubPage}>github.com/jeraldtsy/</a>           		    
         </div>

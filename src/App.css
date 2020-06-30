@@ -66,12 +66,14 @@ p {
     width: 100%;
     background-color: #848484;
     color: white;
-    text-align: center; 
-}
-
-.footer a{
+    text-align: center;
     padding: 15px;
 }
+
+.footer a {
+    padding: 15px;
+}
+
 
 .bibleVerse {
     font-size:13px;

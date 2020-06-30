@@ -92,4 +92,5 @@ p {
     left: 3%;
     bottom:70px; 
     text-align: center;
+    overflow:hidden;
 }

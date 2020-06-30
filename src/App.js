@@ -41,7 +41,8 @@ function App() {
         </div>  
 
         <div class = ".bibleVerse">
-            <span className = "bibleVerse">For the eyes of the Lord range throughout the earth to strengthen those whose hearts are fully committed to him </span>
+            <span className = "bibleVerse">For the eyes of the Lord range throughout the earth<br/>
+            to strengthen those whose hearts are fully committed to him </span>
 		</div>
 
         <div class = "footer">
